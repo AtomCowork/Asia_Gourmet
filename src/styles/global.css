@@ -1,0 +1,23 @@
+:root {
+    --primari-color: #ffffff;
+    --secondary-color: #004091;
+    --third-color: #b8311e;
+    --fourth-color: #d68285;
+    --higligt: #ffc700;
+    /* color-scheme: light dark; */
+}
+.p-color {
+    background-color: var(--primari-color);
+}
+.s-color {
+    background-color: var(--secondary-color);
+}
+.t-color {
+    background-color: var(--third-color);
+}
+.f-color {
+    background-color: var(--fourth-color);
+}
+.highlight {
+    background-color: var(--higligt);
+}
