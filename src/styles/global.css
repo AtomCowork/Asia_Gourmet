@@ -21,12 +21,3 @@
 .highlight {
     background-color: var(--higligt);
 }
-
-.bg-conic{
-    --color: #8CBBF2;
-    background: repeating-conic-gradient(
-        at 50% 103%,
-        var(--secondary-color) 0 5deg,
-        var(--color) 5deg 10deg
-    )
-}
