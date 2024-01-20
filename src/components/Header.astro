@@ -2,27 +2,26 @@
 
 ---
 
-<header class="s-color h-24 px-48">
+<header class="s-color sm:h-24 sm:px-48 px-5 h-12">
     <nav class="uppercase flex justify-between items-center h-full text-lg">
-        <img class="h-20" src="/logo.svg" ' alt="logo" />
+        <img class="h-4" src="/logo.svg" alt="logo" />
 
-        <div class="flex gap-5 text-white">
-            <a href="/programa">programa</a>
-            <a href="/entradas">entradas</a>
-            <a href="/merch">merch</a>
-            <a href="/comoLlego">como llego</a>
-            <a href="/faq">faq</a>
-        </div>
+        <ul class="sm:flex gap-5 text-white hidden">
+            <li><a href="/programa">programa</a></li>
+            <li><a href="/entradas">entradas</a></li>
+            <li><a href="/merch">merch</a></li>
+            <li><a href="/comoLlego">como llego</a></li>
+            <li><a href="/faq">faq</a></li>
+        </ul>
 
-        <button class="highlight uppercase py-2 px-3 rounded-md" id="manolo">
+        <button
+            class="hidden sm:block highlight uppercase py-2 px-3 rounded-md"
+        >
             Entradas
+        </button>
+
+        <button class="sm:hidden block">
+            <img class="h-11" src="/hamburger.svg" alt="haburguer" />
         </button>
     </nav>
 </header>
-
-<script>
-    const btn = document.querySelector("#manolo");
-    btn.addEventListener("click", () => {
-        alert("tuson");
-    });
-</script>
