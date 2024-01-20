@@ -46,9 +46,16 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`           | Build your production site to `./dist/`          |
 
 
-## 👀 Want to learn more?
+## 👀 Tecnologies used?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![html](https://img.shields.io/badge/HTML-ff8000?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS-00aae4?&style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-Ffff00?style=for-the-badge&logo=javascript&logoColor=black)
+
+
+
+
+
 
 ## Other Proyects
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)

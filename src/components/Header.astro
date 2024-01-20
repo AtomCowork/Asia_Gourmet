@@ -1,5 +1,6 @@
 ---
-
+const underline =
+    "hover:underline underline-offset-4 decoration-2 hover:bg-[#ffc700] py-2 px-4 rounded";
 ---
 
 <header class="s-color w-full sm:h-24 sm:px-48 px-5 h-12 absolute top-0 left-0">
@@ -7,16 +8,16 @@
         <img class="h-1/2" src="logo.svg" alt="logo" />
 
         <ul class="sm:flex gap-5 text-white hidden">
-            <li><a href="#programa">programa</a></li>
-            <li><a href="#entradas">entradas</a></li>
-            <li><a href="#merch">merch</a></li>
-            <li><a href="#comoLlego">como llego</a></li>
-            <li><a href="#faq">faq</a></li>
+            <li><a class={underline} href="#programa">programa</a></li>
+            <li><a class={underline} href="#entradas">entradas</a></li>
+            <li><a class={underline} href="#merch">merch</a></li>
+            <li><a class={underline} href="#comoLlego">como llego</a></li>
+            <li><a class={underline} href="#faq">faq</a></li>
         </ul>
 
         <button
             class="hidden sm:block highlight uppercase py-2 px-3 rounded-md"
-            id="button-entradas"
+            id="#entradas"
         >
             Entradas
         </button>
