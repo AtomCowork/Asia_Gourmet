@@ -7,9 +7,8 @@ export default defineConfig({
   site: 'https://atomcowork.github.io',
   //base: '/Asia_Gourmet',
   // base: './',
-  trailingSlash: 'never',
+  // trailingSlash: 'never',
   build: {
-    inlineStylesheets: 'always',
+    // inlineStylesheets: 'always',
   },
-
 })
