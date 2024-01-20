@@ -2,10 +2,21 @@
 
 ---
 
-<div class="h-screen w-screen bg-conic">
-    <p>16 al 20 Octubre - La Rural</p>
-    <h1 class="uppercase">Sabores cuetan historias</h1>
-    <p>Viví el festival de comida asiática más delicioso de la ciudad.</p>
-    <button class="uppercase">Comprar Entradas</button>
-    <img src="heroLogoMobile.svg" alt="Hero Logo Mobile" />
-</div>
+<section class="sm:px-48 px-5 bg-conic h-screen w-screen flex items-center">
+    <div class="flex-grow flex flex-col items-center gap-20">
+        <span>16 al 20 Octubre - La Rural</span>
+        <h1 class="uppercase">Sabores cuetan historias</h1>
+        <p>Viví el festival de comida asiática más delicioso de la ciudad.</p>
+        <div>
+            <button
+                class="hidden sm:block highlight uppercase py-2 px-3 rounded-md"
+                >Comprar Entradas</button
+            >
+        </div>
+    </div>
+    <img
+        class="h-[60%] flex-grow"
+        src="heroLogoMobile.svg"
+        alt="Hero Logo Mobile"
+    />
+</section>
