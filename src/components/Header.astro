@@ -4,7 +4,7 @@
 
 <header class="s-color sm:h-24 sm:px-48 px-5 h-12">
     <nav class="uppercase flex justify-between items-center h-full text-lg">
-        <img class="h-4" src="/logo.svg" alt="logo" />
+        <img class="h-4" src="logo.svg" alt="logo" />
 
         <ul class="sm:flex gap-5 text-white hidden">
             <li><a href="/programa">programa</a></li>
@@ -16,12 +16,20 @@
 
         <button
             class="hidden sm:block highlight uppercase py-2 px-3 rounded-md"
+            id="button-entradas"
         >
             Entradas
         </button>
 
         <button class="sm:hidden block">
-            <img class="h-11" src="/hamburger.svg" alt="haburguer" />
+            <img class="h-11" src="hamburger.svg" alt="haburguer" />
         </button>
     </nav>
 </header>
+
+<script>
+    const buttonEntradas = document.getElementById("button-entradas");
+    buttonEntradas?.addEventListener("click", () => {
+        alert("En construccion");
+    });
+</script>
