@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'Ubuntu';
     src: 
-        url("./fonts/Ubuntu-Regular.woff2") format("woff2"),
+        /* url("./fonts/Ubuntu-Regular.woff2") format("woff2"), */
         url("./fonts/Ubuntu-Regular.ttf") format("truetype"), 
         url("./fonts/Ubuntu-Regular.woff") format("woff") ;
 }
@@ -13,7 +13,7 @@
 @font-face {
     font-family: 'Ubuntu Bold';
     src: 
-        url("./fonts/Ubuntu-Bold.woff2") format("woff2"),
+        /* url("./fonts/Ubuntu-Bold.woff2") format("woff2"), */
         url("./fonts/Ubuntu-Bold.ttf") format("truetype"),
         url("./fonts/Ubuntu-Bold.woff") format("woff") ;
 }
@@ -21,7 +21,7 @@
 @font-face {
     font-family: 'Ubuntu Medium';
     src: 
-        url("./fonts/Ubuntu-Medium.woff2") format("woff2"),
+        /* url("./fonts/Ubuntu-Medium.woff2") format("woff2"), */
         url("./fonts/Ubuntu-Medium.ttf") format("truetype"),
         url("./fonts/Ubuntu-Medium.woff") format("woff") ;
 }
@@ -34,6 +34,7 @@
     --higligt: #ffc700;
     /* color-scheme: light dark; */
     font-family: 'Ubuntu';
+    scroll-behavior: smooth;
 }
 
 .p-color {
