@@ -51,11 +51,15 @@ const cards=[
 ]
 
 function mostrarCards(){
-    cards.forEach(i)=>{
+    cards.forEach((card)=>{
 const divCards= document.createElement("div")
-divCards.
+divCards.innerHTML=`${card.img}
+                    ${card.info}
+                    <button>COMPRAR</button>`;
+})
 }
-}
+
+mostrarCards();
 
 
 ---
