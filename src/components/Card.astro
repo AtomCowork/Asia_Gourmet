@@ -16,4 +16,46 @@ function Card(link,info,btn){
          this.info=getInfo;
          this.btn=getBtn;
 }*/
+const nodoPrincipal= document.getElementById("ticket-Container")
+const cards=[
+    {   title: `PASE - 5 DÍAS`,
+        img:`<img src="tickets_5dias" alt="ticket" />`,
+        info:`<ul>
+                <li>Pase para todos los días</li>
+                <li>Cuponera de descuento</li>
+                <li>Reserva de cupos en talleres</li>
+                <li>Regalo en la entrada</li>
+              </ul>`,
+        
+    },
+
+    {   title: `PASE COMBO`,
+        img:`<img src="tickets_combo" alt="ticket" />`,
+        info:`<ul>
+                <li>Pase para el día seleccionado</li>
+                <li>Reserva de cupos en talleres de ese mismo día</li>
+                <li>Descuento en el plato del dia</li>
+              </ul>`,
+        
+    },
+
+    {   title: `PASE - 1 DÍAS`,
+        img:`<img src="tickets_1dia" alt="ticket" />`,
+        info:`<ul>
+                <li>Pase para los dias seleccionados</li>
+                <li>Reserva de cupos en talleres</li>
+                <li>Cuponera de descuentos (reservando 2 días o más)</li>
+              </ul>`,
+        
+    }
+]
+
+function mostrarCards(){
+    cards.forEach(i)=>{
+const divCards= document.createElement("div")
+divCards.
+}
+}
+
+
 ---
