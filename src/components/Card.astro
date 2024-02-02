@@ -1,65 +1,19 @@
 ---
-import type { info } from "node_modules/astro/dist/core/logger/core";
-
-/*let getImg=;
-let getInfo=;
-let getBtn=;
-
-const Card={
-    img:link,
-    info:info,
-    btn:btn,
-};
-
-function Card(link,info,btn){
-         this.link=getImg;
-         this.info=getInfo;
-         this.btn=getBtn;
-}*/
-const nodoPrincipal= document.getElementById("ticket-Container")
-const cards=[
-    {   title: `PASE - 5 DÍAS`,
-        img:`<img src="tickets_5dias" alt="ticket" />`,
-        info:`<ul>
-                <li>Pase para todos los días</li>
-                <li>Cuponera de descuento</li>
-                <li>Reserva de cupos en talleres</li>
-                <li>Regalo en la entrada</li>
-              </ul>`,
-        
-    },
-
-    {   title: `PASE COMBO`,
-        img:`<img src="tickets_combo" alt="ticket" />`,
-        info:`<ul>
-                <li>Pase para el día seleccionado</li>
-                <li>Reserva de cupos en talleres de ese mismo día</li>
-                <li>Descuento en el plato del dia</li>
-              </ul>`,
-        
-    },
-
-    {   title: `PASE - 1 DÍAS`,
-        img:`<img src="tickets_1dia" alt="ticket" />`,
-        info:`<ul>
-                <li>Pase para los dias seleccionados</li>
-                <li>Reserva de cupos en talleres</li>
-                <li>Cuponera de descuentos (reservando 2 días o más)</li>
-              </ul>`,
-        
-    }
-]
-
-function mostrarCards(){
-    cards.forEach((card)=>{
-const divCards= document.createElement("div")
-divCards.innerHTML=`${card.img}
-                    ${card.info}
-                    <button>COMPRAR</button>`;
-})
-}
-
-mostrarCards();
-
+import data from "@/cards.json";
+/*const data= await response.json()
+const data= await response.json();
+    console.log(data);*/
 
 ---
+
+<section>
+    {data.map(resp => (
+            <div>
+            <b>{resp.id}</b>
+            <h3>{resp.title}</h3>
+            <img src={resp.img} alt="ticket"></img>
+            <p>{resp.info}</p>
+            <button>COMPRAR TICKET</button>
+            </div>
+        ))}
+</section>
