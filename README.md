@@ -1,22 +1,22 @@
 <div align='center'>
-  <h1>
-    <img src='public/logo.svg' height='150px' width='auto' />
-  </h1>
-  <p>· Create a page for a event of Asian Gourmet ·</p>
+	<h1>
+		<img src='public/logo.svg' height='150px' width='auto' />
+	</h1>
+	<p>· Create a page for a event of Asian Gourmet ·</p>
 </div>
 
 <div align='center'>
-  <a href='#' target='_blank'> Preview </a>
-  <span>&nbsp;✦&nbsp;</span>
-  <a href='#-getting-started'> Getting Started </a>
-  <span>&nbsp;✦&nbsp;</span>
-  <a href='#-commands'> Commands </a>
-  <span>&nbsp;✦&nbsp;</span>
-  <a href='#-license'> License </a>
-  <span>&nbsp;✦&nbsp;</span>
-  <a href=''> Linkedin </a>
-  <span>&nbsp;✦&nbsp;</span>
-  <a href=''> Blog </a>
+	<a href='#' target='_blank'> Preview </a>
+	<span>&nbsp;✦&nbsp;</span>
+	<a href='#-getting-started'> Getting Started </a>
+	<span>&nbsp;✦&nbsp;</span>
+	<a href='#-commands'> Commands </a>
+	<span>&nbsp;✦&nbsp;</span>
+	<a href='#-license'> License </a>
+	<span>&nbsp;✦&nbsp;</span>
+	<a href=''> Linkedin </a>
+	<span>&nbsp;✦&nbsp;</span>
+	<a href=''> Blog </a>
 </div>
 
 ## 📜 Page preview
@@ -44,5 +44,5 @@ CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https:/
 Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 pone los links de otras paginas --- ## TODO letra desktop 24px nav -> 16 px letra movil 12 ## ✅ Por
 hacer... - [ ] - [ ] - [ ] - [ ] # Done - Borrar gh pages dependeci - Arreglar el archivo fix-hrefs
-en workflows - Agregar eslint linter (Descargar - errorlens - prettier - ESlint) - screens: 'sm':
-'640px', 'md': '768px', 'lg': '1024px', 'xl': '1280px','2xl': '1536px',
+en workflows - Agregar eslint linter (Descargar - errorlens - prettier - ESlint) - screens:
+'sm':'640px', 'md': '768px', 'lg': '1024px', 'xl': '1280px','2xl': '1536px',
