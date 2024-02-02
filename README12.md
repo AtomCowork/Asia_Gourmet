@@ -47,11 +47,11 @@
 
 ## 🛠️ Stack
 
-- [**Astro**](https://astro.build/) - The web framework for content-driven websites.
-- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
-- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
-- [**tailwindcss-animated**](https://github.com/new-data-services/tailwindcss-animated) - Extended animation utilities for Tailwind CSS.
-- [**fontsource**](https://fontsource.org/) - Self-host Open Source fonts in neatly bundled NPM packages.
+-   [**Astro**](https://astro.build/) - The web framework for content-driven websites.
+-   [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
+-   [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+-   [**tailwindcss-animated**](https://github.com/new-data-services/tailwindcss-animated) - Extended animation utilities for Tailwind CSS.
+-   [**fontsource**](https://fontsource.org/) - Self-host Open Source fonts in neatly bundled NPM packages.
 
 ## 🚀 Getting Started
 
@@ -63,7 +63,7 @@ git clone git@github.com:midudev/esland-web.git
 
 2. Install the dependencies:
 
-- We use [bun](https://bun.sh) to install and manage the dependencies.
+-   We use [bun](https://bun.sh) to install and manage the dependencies.
 
 ```bash
 # Install bun for MacOS, WSL & Linux:
@@ -76,7 +76,7 @@ powershell -c "iwr bun.sh/install.ps1|iex"
 bun install
 ```
 
-- or you can use [pnpm](https://pnpm.io):
+-   or you can use [pnpm](https://pnpm.io):
 
 ```bash
 # Install pnpm globally if you don't have it:
@@ -118,12 +118,12 @@ pnpm dev
 
 ## ✅ Por hacer...
 
-- [ ] Mejorar diseño de la página "Info"
-- [ ] Añadir funcionalidad de ganadores de pasadas ediciones
-- [ ] Mejorar la precarga de las imágenes de las siguientes secciones en idle
-- [ ] Pestaña para cambiar entre ediciones en la página "Archivo"
+-   [ ] Mejorar diseño de la página "Info"
+-   [ ] Añadir funcionalidad de ganadores de pasadas ediciones
+-   [ ] Mejorar la precarga de las imágenes de las siguientes secciones en idle
+-   [ ] Pestaña para cambiar entre ediciones en la página "Archivo"
 
 ### 👀 Lo haremos en directo en Twitch
 
-- [ ] Base de datos para las votaciones
-- [ ] Backend para las votaciones
+-   [ ] Base de datos para las votaciones
+-   [ ] Backend para las votaciones

@@ -1,0 +1,56 @@
+---
+
+---
+
+<header class='s-color absolute left-0 top-0 mx-auto h-12 w-full px-5 sm:h-24'>
+    <nav class='mx-auto flex h-full max-w-[1550px] items-center justify-between text-lg uppercase'>
+        <img class='h-1/2' src='logo.svg' alt='logo' />
+
+        <ul class='hidden gap-5 text-white sm:flex'>
+            <li>
+                <a
+                    class='rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline'
+                    href='#programa'>programa</a
+                >
+            </li>
+            <li>
+                <a
+                    class='rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline'
+                    href='#entradas'>entradas</a
+                >
+            </li>
+            <li>
+                <a
+                    class='rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline'
+                    href='#merch'>merch</a
+                >
+            </li>
+            <li>
+                <a
+                    class='rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline'
+                    href='#comoLlego'>como llego</a
+                >
+            </li>
+            <li>
+                <a
+                    class='rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline'
+                    href='#faq'>faq</a
+                >
+            </li>
+        </ul>
+
+        <button class='hidden rounded-md bg-highlight px-3 py-2 uppercase sm:block' id='#entradas'>
+            Entradas
+        </button>
+
+        <button class='block sm:hidden'>
+            <img class='h-11' src='hamburger.svg' alt='haburguer' />
+        </button>
+    </nav>
+</header>
+<script>
+    const buttonEntradas = document.getElementById('button-entradas')
+    buttonEntradas?.addEventListener('click', () => {
+        alert('En construccion')
+    })
+</script>
