@@ -1,28 +1,20 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import Hero from "@/components/Hero.astro";
-import Main from "@/components/Main.astro";
-import Merch from "@/components/Merch.astro";
-import Location from "@/components/Location.astro";
-import Ticket from "@/components/Ticket.astro";
-import Data from "@/components/Data.astro";
-import Footer from "@/components/Footer.astro";
+import Layout from '@/layouts/Layout.astro'
+import Main from '@/components/Main.astro'
+import Merch from '@/components/Merch.astro'
+import Location from '@/components/Location.astro'
+import Ticket from '@/components/Ticket.astro'
+import Data from '@/components/Data.astro'
+import Footer from '@/components/Footer.astro'
 ---
 
-<Layout title="Asia Gourmet">
-	<!-- poner todo el main -->
-	<main>
-		<Hero />
-		<img
-			class="absolute top-0 h-screen w-screen z-[-1]"
-			src="desk.svg"
-			alt=""
-		/>
-		<Main />
-		<Merch />
-		<Location />
-		<Ticket />
-		<Data />
-		<Footer />
-	</main>
+<Layout title='Asia Gourmet'>
+    <main>
+        <Main />
+        <Merch />
+        <Location />
+        <Ticket />
+        <Data />
+        <Footer />
+    </main>
 </Layout>
