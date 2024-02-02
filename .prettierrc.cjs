@@ -12,7 +12,8 @@ module.exports = {
         {
             files: ['*.json', '*.md', '*.toml', '*.yml', '*.astro'],
             options: {
-                useTabs: false
+                useTabs: false,
+                parser: 'astro'
             }
         }
     ],
