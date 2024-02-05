@@ -3,62 +3,62 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'Ubuntu';
-	src: 
+  font-family: 'Ubuntu';
+  src: 
         /* url("./fonts/Ubuntu-Regular.woff2") format("woff2"), */
-		url('./fonts/Ubuntu-Regular.ttf') format('truetype'),
-		url('./fonts/Ubuntu-Regular.woff') format('woff');
+    url('./fonts/Ubuntu-Regular.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Regular.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Ubuntu Bold';
-	src: 
+  font-family: 'Ubuntu Bold';
+  src: 
         /* url("./fonts/Ubuntu-Bold.woff2") format("woff2"), */
-		url('./fonts/Ubuntu-Bold.ttf') format('truetype'),
-		url('./fonts/Ubuntu-Bold.woff') format('woff');
+    url('./fonts/Ubuntu-Bold.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Bold.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Ubuntu Medium';
-	src: 
+  font-family: 'Ubuntu Medium';
+  src: 
         /* url("./fonts/Ubuntu-Medium.woff2") format("woff2"), */
-		url('./fonts/Ubuntu-Medium.ttf') format('truetype'),
-		url('./fonts/Ubuntu-Medium.woff') format('woff');
+    url('./fonts/Ubuntu-Medium.ttf') format('truetype'),
+    url('./fonts/Ubuntu-Medium.woff') format('woff');
 }
 
 :root {
-	--primari-color: #ffffff;
-	--secondary-color: #004091;
-	--third-color: #b8311e;
-	--fourth-color: #d68285;
-	/* --higligt: #ffc700; */
-	/* color-scheme: light dark; */
-	font-family: 'Ubuntu';
-	scroll-behavior: smooth;
+  --primari-color: #ffffff;
+  --secondary-color: #004091;
+  --third-color: #b8311e;
+  --fourth-color: #d68285;
+  /* --higligt: #ffc700; */
+  /* color-scheme: light dark; */
+  font-family: 'Ubuntu';
+  scroll-behavior: smooth;
 }
 
 .p-color {
-	background-color: var(--primari-color);
+  background-color: var(--primari-color);
 }
 .s-color {
-	background-color: var(--secondary-color);
-	color: #004091;
+  background-color: var(--secondary-color);
+  color: #004091;
 }
 .t-color {
-	background-color: var(--third-color);
+  background-color: var(--third-color);
 }
 .f-color {
-	background-color: var(--fourth-color);
+  background-color: var(--fourth-color);
 }
 .highlight {
-	background-color: var(--higligt);
+  background-color: var(--higligt);
 }
 
 .bg-conic {
-	--color: #8cbbf2;
-	background: repeating-conic-gradient(
-		at 50% 103%,
-		var(--secondary-color) 0 5deg,
-		var(--color) 5deg 10deg
-	);
+  --color: #8cbbf2;
+  background: repeating-conic-gradient(
+    at 50% 103%,
+    var(--secondary-color) 0 5deg,
+    var(--color) 5deg 10deg
+  );
 }

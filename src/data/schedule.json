@@ -2,11 +2,31 @@
   {
     "day1": [
       {
-        "day": "DIA 1 - MIERCOLES 16",
+        "date": "DIA 1 - MIERCOLES 16",
         "events": [
           {
             "hours": "10:00hs",
-            "event": " DANZAS DEL DRAGON Y EL LEON",
+            "eventName": "DANZAS DEL DRAGON Y EL LEON",
+            "place": "Escuela Lung Chuan"
+          }
+        ]
+      },
+      {
+        "date": "DIA 1 - MIERCOLES 16",
+        "events": [
+          {
+            "hours": "10:00hs",
+            "eventName": "DANZAS DEL DRAGON Y EL LEON",
+            "place": "Escuela Lung Chuan"
+          }
+        ]
+      },
+      {
+        "date": "DIA 1 - MIERCOLES 16",
+        "events": [
+          {
+            "hours": "10:00hs",
+            "eventName": "DANZAS DEL DRAGON Y EL LEON",
             "place": "Escuela Lung Chuan"
           }
         ]
@@ -14,28 +34,28 @@
     ],
     "day2": [
       {
-        "day": "DIA 2 - JUEVES 17",
+        "date": "DIA 2 - JUEVES 17",
         "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
         "place": "Escuela Lung Chuan"
       }
     ],
     "day3": [
       {
-        "day": "DIA 3 - VIERNES 18",
+        "date": "DIA 3 - VIERNES 18",
         "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
         "place": "Escuela Lung Chuan"
       }
     ],
     "day4": [
       {
-        "day": "DIA 4 - SABADO 19",
+        "date": "DIA 4 - SABADO 19",
         "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
         "place": "Escuela Lung Chuan"
       }
     ],
     "day5": [
       {
-        "day": "DIA 5 - DOMINGO 20",
+        "date": "DIA 5 - DOMINGO 20",
         "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
         "place": "Escuela Lung Chuan"
       }

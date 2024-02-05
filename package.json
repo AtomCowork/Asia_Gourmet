@@ -7,6 +7,7 @@
     "start": "astro dev",
     "build": "astro build && node ./.github/workflows/fix-hrefs.js",
     "preview": "astro preview",
+    "format": "npx prettier --write .",
     "astro": "astro"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "prettier": "3.2.4",
+    "prettier-plugin-astro": "0.13.0",
     "prettier-plugin-tailwindcss": "0.5.11"
   }
 }
