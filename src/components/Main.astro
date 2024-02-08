@@ -9,10 +9,10 @@ import data from '@/data/schedule.json'
   {
     data.map(({ date, events }) => (
       <div>
-        <div class=" bg-primary py-2 text-center font-bold text-backGround">
+        <div class=" bg-primary py-4 text-center text-xl font-bold text-backGround">
           {date}
         </div>
-        <div class="text-primary grid gap-y-5 py-5 font-bold md:grid-cols-3">
+        <div class="grid gap-y-5 py-10 font-bold text-primary md:grid-cols-3">
           {events.map(({ hours, eventName, place }) => (
             <div class="grid grid-cols-3 gap-5">
               <div class="justify-self-end ">{hours}</div>
@@ -27,7 +27,7 @@ import data from '@/data/schedule.json'
     ))
   }
   <button
-    class="w-full rounded-md bg-highlight py-2 font-bold uppercase sm:w-auto sm:px-28"
+    class="mx-auto block rounded-md bg-highlight py-2 font-bold uppercase sm:px-28"
     >Comprar Entradas</button
   >
 </section>
