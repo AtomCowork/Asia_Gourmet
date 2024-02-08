@@ -4,10 +4,9 @@
     "id": "0001",
     "img": "tickets_5dias.svg",
     "info": [
-      "-Pase para todos los días",
-      "-Cuponera de descuento",
-      "-Reserva de cupos en talleres",
-      "-Regalo en la entrada</li>"
+      "Pase para todos los días",
+      "Cuponera de descuento + Regalo en la entrada",
+      "Reserva de cupos en talleres"
     ]
   },
 
@@ -16,9 +15,9 @@
     "id": "0002",
     "img": "tickets_combo.svg",
     "info": [
-      "-Pase para el día seleccionado",
-      "-Reserva de cupos en talleres de ese mismo día",
-      "-Descuento en el plato del dia"
+      "Pase para el día seleccionado",
+      "Reserva de cupos en talleres de ese mismo día",
+      "Descuento en el plato del dia"
     ]
   },
 
@@ -29,7 +28,7 @@
     "info": [
       "Pase para los dias seleccionados",
       "Reserva de cupos en talleres",
-      "Cuponera de descuentos (reservando 2 días o más)"
+      "Cuponera de descuentos (reserva de 2 días o más)"
     ]
   }
 ]

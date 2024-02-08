@@ -2,17 +2,19 @@
 import data from '@/data/cards.json'
 ---
 
-<section class="align-center flex justify-center">
-  <h1>Welcome</h1>
-  {
-    data.map(resp => (
-      <div>
-        <b>{resp.id}</b>
-        <h3>{resp.title}</h3>
-        <img src={resp.img} alt="ticket" />
-        <p>{resp.info}</p>
-        <button>COMPRAR TICKET</button>
+<section class="flex flex-col gap-10 md:grid md:grid-cols-3">
+  {data.map(resp => (
+      <div class="bg-white flex flex-col rounded-lg p-8">
+        <h3 class="text-primary">{resp.title}</h3>
+        <div class="relative">
+        <div class="absolute -z-10 top-0 w-80 h-80 rounded-full bg-primary"></div>
+        <img src={resp.img} alt="ticket" class=""/>
+          </div>
+        <ul class="flex flex-col justify-center">{resp.info.map(inf=>(<li class="text-primary">{inf}</li>))}</ul>
+        <br>
+        <button class="mx-auto block rounded-md bg-highlight py-2 font-bold uppercase sm:px-28">COMPRAR</button>
       </div>
     ))
-  }
+    }
 </section>
+
