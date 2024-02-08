@@ -61,7 +61,7 @@ letra desktop 24px nav -> 16 px letra movil 12
 
 ## ✅ Por hacer...
 
-- [ ]
+- [x] Estilar la pagina
 - [ ]
 - [ ]
 - [ ]

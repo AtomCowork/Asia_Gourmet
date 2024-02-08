@@ -11,7 +11,8 @@ export default {
         coralRed: '#d68285'
       },
       textColor: {
-        backGround: '#ffffff'
+        backGround: '#ffffff',
+        primary: '#004091'
       }
     }
   },
