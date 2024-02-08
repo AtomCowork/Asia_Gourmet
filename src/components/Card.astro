@@ -1,14 +1,12 @@
 ---
-import data from "@/cards.json";
-/*const data= await response.json()
-const data= await response.json();
-    console.log(data);*/
-
+import data from "@/data/cards.json";
 ---
 
 <section>
-    {
-    data.map(resp => (
+
+    <h1>Welcome</h1>
+    {data.map(resp => (
+ main
             <div>
             <b>{resp.id}</b>
             <h3>{resp.title}</h3>
@@ -16,5 +14,7 @@ const data= await response.json();
             <p>{resp.info}</p>
             <button>COMPRAR TICKET</button>
             </div>
-        ))}
+            )
+            )
+    }
 </section>
