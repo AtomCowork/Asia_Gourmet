@@ -1,0 +1,39 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "semi": false,
+  "experimentalTernaries": true,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "trailingComma": "none",
+  "singleAttributePerLine": false,
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": false,
+  "proseWrap": "always",
+  "insertPragma": false,
+  "printWidth": 80,
+  "requirePragma": false,
+  "useTabs": false,
+  "embeddedLanguageFormatting": "auto",
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    },
+    {
+      "files": ["*.md"],
+      "options": {
+        "useTabs": false,
+        "tabWidth": 0,
+        "printWidth": 100
+      }
+    }
+  ]
+}

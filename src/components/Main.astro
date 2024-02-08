@@ -1,9 +1,33 @@
-<section id='programa'>
-	<h2>NO TE PIERDAS NADA</h2>
-	<p class=''>Te mostramos un poco del cronograma</p>
-	<div class='day'></div>
-	<div class='day'></div>
-	<div class='day'></div>
-	<div class='day'></div>
-	<div class='day'></div>
+---
+import data from '@/data/schedule.json'
+---
+
+<section id="programa">
+  <h2 class="text-center uppercase">No te pierdas nada</h2>
+  <p class="text-center">Te mostramos un poco del cronograma</p>
+
+  {
+    data.map(({ date, events }) => (
+      <div>
+        <div class=" bg-primary py-2 text-center font-bold text-backGround">
+          {date}
+        </div>
+        <div class="text-primary grid gap-y-5 py-5 font-bold md:grid-cols-3">
+          {events.map(({ hours, eventName, place }) => (
+            <div class="grid grid-cols-3 gap-5">
+              <div class="justify-self-end ">{hours}</div>
+              <div class="col-span-2 flex flex-col ">
+                <span>{eventName}</span>
+                {place}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))
+  }
+  <button
+    class="w-full rounded-md bg-highlight py-2 font-bold uppercase sm:w-auto sm:px-28"
+    >Comprar Entradas</button
+  >
 </section>

@@ -1,6 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro'
 import Main from '@/components/Main.astro'
+import Discount from '@/components/Discount.astro'
 import Merch from '@/components/Merch.astro'
 import Location from '@/components/Location.astro'
 import Ticket from '@/components/Ticket.astro'
@@ -8,13 +9,15 @@ import Data from '@/components/Data.astro'
 import Footer from '@/components/Footer.astro'
 ---
 
-<Layout title='Asia Gourmet'>
-	<main class='grid gap-12 overflow-hidden sm:gap-16 md:gap-24 lg:gap-32'>
-		<Main />
-		<Merch />
-		<Location />
-		<Ticket />
-		<Data />
-		<Footer />
-	</main>
+<Layout title="Asia Gourmet">
+  <main
+    class="mx-auto flex max-w-[1550px] flex-col gap-12 overflow-hidden px-4 sm:gap-16 md:gap-24 lg:gap-32">
+    <Main />
+    <Discount />
+    <Merch />
+    <Location />
+    <Ticket />
+    <Data />
+    <Footer />
+  </main>
 </Layout>

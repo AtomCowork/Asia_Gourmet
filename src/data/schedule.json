@@ -1,43 +1,106 @@
 [
   {
-    "day1": [
+    "date": "DIA 1 - MIERCOLES 16",
+    "events": [
       {
-        "day": "DIA 1 - MIERCOLES 16",
-        "events": [
-          {
-            "hours": "10:00hs",
-            "event": " DANZAS DEL DRAGON Y EL LEON",
-            "place": "Escuela Lung Chuan"
-          }
-        ]
-      }
-    ],
-    "day2": [
-      {
-        "day": "DIA 2 - JUEVES 17",
-        "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
+        "hours": "10:00hs",
+        "eventName": "DANZAS DEL DRAGON Y EL LEON",
         "place": "Escuela Lung Chuan"
-      }
-    ],
-    "day3": [
+      },
       {
-        "day": "DIA 3 - VIERNES 18",
-        "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
-        "place": "Escuela Lung Chuan"
-      }
-    ],
-    "day4": [
+        "hours": "12:00hs",
+        "eventName": "PRESENTACION DEL EVENTO",
+        "place": "Anfitrion Akira Kaneto"
+      },
       {
-        "day": "DIA 4 - SABADO 19",
-        "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
-        "place": "Escuela Lung Chuan"
-      }
-    ],
-    "day5": [
+        "hours": "12:15hs",
+        "eventName": "CEREMONIA DE APERTURA",
+        "place": "Inicio formal al evento"
+      },
       {
-        "day": "DIA 5 - DOMINGO 20",
-        "hours": "10:00hs DANZAS DEL DRAGON Y EL LEON",
-        "place": "Escuela Lung Chuan"
+        "hours": "14:00hs",
+        "eventName": "SHOW POP CHINA",
+        "place": "Cantante del estudio XUNLU"
+      },
+      {
+        "hours": "14:30hs",
+        "eventName": "WOSHU KUNG FU",
+        "place": "Maestra Chen Min"
+      },
+      {
+        "hours": "15:00hs",
+        "eventName": "KUNG FU SHAOLING",
+        "place": "Maestra Chen Min"
+      }
+    ]
+  },
+  {
+    "date": "DIA 2 - MIERCOLES 16",
+    "events": [
+      {
+        "hours": "13:30hs",
+        "eventName": "LA COMIDA EN LAS PELICULAS",
+        "place": "Estudio Ghlibli"
+      },
+      {
+        "hours": "14:30hs",
+        "eventName": "EL ARTE DE VESTRIR KIMONO",
+        "place": "Charla + taller"
+      },
+      {
+        "hours": "15:00hs",
+        "eventName": "DEGUSTACION",
+        "place": "Cafe de Indonesia"
+      },
+      {
+        "hours": "15:30hs",
+        "eventName": "IDIOMA COREANO",
+        "place": "Centro Universitario de idiomas"
+      },
+      {
+        "hours": "17:30hs",
+        "eventName": "MASTER CLASS",
+        "place": "Chef Martin Ho"
+      },
+      {
+        "hours": "18:00hs",
+        "eventName": "DANZA TRADICIONAL",
+        "place": "Delia Hou"
+      }
+    ]
+  },
+  {
+    "date": "DIA 3 - MIERCOLES 16",
+    "events": [
+      {
+        "hours": "13:30hs",
+        "eventName": "A BAILAR KPOP",
+        "place": "Yami Arias y grupo idolXP"
+      },
+      {
+        "hours": "14:30hs",
+        "eventName": "MAESTER CLASS",
+        "place": "Chef Jin Wenmo"
+      },
+      {
+        "hours": "15:30hs",
+        "eventName": "TAMBORES TAIKO",
+        "place": "Grupo RKMD"
+      },
+      {
+        "hours": "16:30hs",
+        "eventName": "MODA Y TENDENCIAS",
+        "place": "Universo Clamp"
+      },
+      {
+        "hours": "17:30hs",
+        "eventName": "CEREMONIA DEL TE",
+        "place": "Malena Higashi MNAO"
+      },
+      {
+        "hours": "18:00hs",
+        "eventName": "MAESTER CLASS",
+        "place": "Becarias de AACONI"
       }
     ]
   }
