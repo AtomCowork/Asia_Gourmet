@@ -3,8 +3,11 @@ import Card from './Card.astro'
 ---
 
 <section id="ticket-Container" class="mx-auto justify-center bg-primary">
-  <img src="public/fideos.svg" alt="ramen" class="relative object-left-top" />
-  <img src="public/fideos.svg" alt="ramen" class="object-right-top" />
+  <div class="flex flex-row row-span-1"> 
+    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
+    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
+  </div>
+  
   <h1 class="flex justify-center text-xl text-white">
     BENEFICIOS CON TUS ANTICIPADAS
   </h1>
@@ -13,6 +16,9 @@ import Card from './Card.astro'
   </p>
   <br />
   <Card />
-  <img src="public/fideos.svg" alt="ramen" class="object-left-bottom" />
-  <img src="public/fideos.svg" alt="ramen" class="object-right-bottom" />
+  <div class="flex flex-row">
+    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
+    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
+  </div>
+  
 </section>
