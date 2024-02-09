@@ -1,5 +1,6 @@
 ---
 import Button from './Button.astro'
+import imagen from '../../public/heroLogoMobile.svg'
 ---
 
 <header
@@ -23,11 +24,17 @@ import Button from './Button.astro'
     src="../../public/heroLogoMobile.svg"
     alt="Hero Logo Mobile"
   />
+  <img
+    class="h-[25rem]"
+    src="@/public/heroLogoMobile.svg"
+    alt="Hero Logo Mobile"
+  />
+  <img class="h-[25rem]" src=`${imagen}` alt="Hero Logo Mobile" />
 
   <img
     class="absolute left-0 top-0 -z-20 h-full max-h-max w-full object-cover"
     loading="lazy"
-    src="../../public/desk.svg"
+    src="/public/desk.svg"
     alt="desk"
   />
 </header>
