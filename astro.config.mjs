@@ -16,7 +16,7 @@ export default defineConfig({
   base,
   mode,
   envDir: '../',
-  publicDir: '../public',
+  publicDir: './public',
   resolve: {
     alias: {
       '@': new URL('./src', import.meta.url).pathname
