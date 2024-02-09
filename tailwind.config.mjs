@@ -2,6 +2,10 @@
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    fontFamily: {
+      sans: ['Open Sans', 'sans-serif'],
+      ubuntu: ['Ubuntu', 'sans-serif']
+    },
     extend: {
       backgroundColor: {
         backGround: '#ffffff',
