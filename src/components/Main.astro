@@ -1,10 +1,15 @@
 ---
 import data from '@/data/schedule.json'
+import Button from './Button.astro'
 ---
 
 <section id="programa">
-  <h2 class="text-center uppercase">No te pierdas nada</h2>
-  <p class="text-center">Te mostramos un poco del cronograma</p>
+  <h2 class="pt-4 text-center text-4xl font-bold uppercase text-primary">
+    No te pierdas nada
+  </h2>
+  <p class="py-4 text-center text-xl text-primary">
+    Te mostramos un poco del cronograma
+  </p>
 
   {
     data.map(({ date, events }) => (
@@ -12,12 +17,12 @@ import data from '@/data/schedule.json'
         <div class=" bg-primary py-4 text-center text-xl font-bold text-backGround">
           {date}
         </div>
-        <div class="grid gap-y-5 py-10 font-bold text-primary md:grid-cols-3">
+        <div class="grid gap-y-5 py-10 text-primary md:grid-cols-3">
           {events.map(({ hours, eventName, place }) => (
             <div class="grid grid-cols-3 gap-5">
-              <div class="justify-self-end ">{hours}</div>
+              <div class="justify-self-end font-bold">{hours}</div>
               <div class="col-span-2 flex flex-col ">
-                <span>{eventName}</span>
+                <span class="font-bold">{eventName}</span>
                 {place}
               </div>
             </div>
@@ -26,8 +31,5 @@ import data from '@/data/schedule.json'
       </div>
     ))
   }
-  <button
-    class="mx-auto block rounded-md bg-highlight py-2 font-bold uppercase sm:px-28"
-    >Comprar Entradas</button
-  >
+  <Button name="Cronograma Completo" display="mx-auto w-full block" />
 </section>

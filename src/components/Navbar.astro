@@ -1,11 +1,10 @@
 ---
-
+import Button from './Button.astro'
 ---
 
 <nav class="mx-auto bg-primary p-4">
-  <div
-    class="container mx-auto flex items-center justify-between text-lg uppercase">
-    <img class="w-20 md:w-28 lg:w-36" src="./logo.svg" alt="logo" />
+  <div class="flex items-center justify-between text-xl uppercase">
+    <img class="w-20 md:w-28 lg:w-40" src="./logo.svg" alt="logo" />
 
     <button class="block lg:hidden">
       <img
@@ -18,7 +17,7 @@
     </button>
 
     <ul
-      class="absolute left-0 right-0 top-16 hidden h-full flex-col items-center gap-4 bg-primary text-white lg:static lg:flex lg:flex-row"
+      class="absolute left-0 right-0 top-16 hidden h-full flex-col items-center gap-6 bg-primary text-white lg:static lg:flex lg:flex-row"
       role="menubar">
       <li>
         <a
@@ -51,17 +50,13 @@
       <li>
         <a
           role="menuitem"
-          class="rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline"
+          class="rounded-lg px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline"
           href="#faq">faq</a
         >
       </li>
     </ul>
 
-    <button
-      class="hidden rounded-md bg-highlight px-3 py-2 uppercase lg:block"
-      id="#entradas">
-      Entradas
-    </button>
+    <Button name="Entrada" buy="entradas" display="hidden" />
   </div>
 </nav>
 

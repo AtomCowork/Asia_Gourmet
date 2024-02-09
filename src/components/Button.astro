@@ -1,0 +1,9 @@
+---
+const { name, buy, display } = Astro.props
+---
+
+<button
+  class=`${display} shadow-lg border-primary border-2 border-transparent hover:border-2 hover:border-red-500 md:w-auto font-bold rounded-md bg-highlight px-7 py-2 uppercase text-primary lg:block`
+  id={buy}>
+  {name}
+</button>

@@ -1,31 +1,28 @@
 ---
-
+import Button from './Button.astro'
 ---
 
 <header
-  class="container mx-auto flex h-screen flex-col items-center justify-center px-8 md:flex md:flex-row md:justify-between md:px-16">
-  <div class="text-center text-backGround lg:text-left">
-    <span>16 al 20 Octubre - La Rural</span>
-    <h1 class="text-xl font-bold uppercase md:text-4xl">
+  class="relative flex h-screen flex-col items-center gap-2 p-8 md:flex md:flex-row md:justify-between md:px-16">
+  <div class="flex flex-col gap-2 text-center text-backGround lg:text-left">
+    <p class="text-xl lg:text-2xl">16 al 20 Octubre - La Rural</p>
+    <h1 class="text-2xl font-bold uppercase md:text-4xl lg:text-6xl">
       Sabores que <br /> cuetan historias
     </h1>
-    <p>
+    <p class="text-xl lg:text-2xl">
       Viví el festival de comida asiática <br /> más delicioso de la ciudad.
     </p>
-    <div>
-      <button
-        class="w-full rounded-md bg-highlight py-2 font-bold uppercase sm:w-auto sm:px-28"
-        >Comprar Entradas</button
-      >
-    </div>
+    <Button name="Comprar Entradas" display="w-full" />
+    <!-- <button
+      class="w-full rounded-md bg-highlight py-2 font-bold uppercase sm:w-auto sm:px-28"
+      >Comprar Entradas</button
+    > -->
   </div>
+  <img class="h-[25rem]" src="heroLogoMobile.svg" alt="Hero Logo Mobile" />
+
   <img
-    class="h-[50%] md:h-[79%]"
-    src="heroLogoMobile.svg"
-    alt="Hero Logo Mobile"
-  />
-  <img
-    class="absolute left-0 top-0 -z-20 h-screen w-screen object-cover"
+    class="absolute left-0 top-0 -z-20 h-full max-h-max w-full object-cover"
+    loading="lazy"
     src="desk.svg"
     alt="desk"
   />
