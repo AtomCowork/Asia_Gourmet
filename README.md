@@ -81,3 +81,6 @@ letra desktop 24px nav -> 16 px letra movil 12
 - 📎
 - 🔥 Remove/Merge?
 - 🎉Styles/Merge?
+
+- width min(100%-2rem, 1200px) inline auto
+- outline 3px solid limegreen

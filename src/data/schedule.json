@@ -35,7 +35,7 @@
     ]
   },
   {
-    "date": "DIA 2 - MIERCOLES 16",
+    "date": "DIA 2 - MIERCOLES 17",
     "events": [
       {
         "hours": "13:30hs",
@@ -70,7 +70,77 @@
     ]
   },
   {
-    "date": "DIA 3 - MIERCOLES 16",
+    "date": "DIA 3 - MIERCOLES 18",
+    "events": [
+      {
+        "hours": "13:30hs",
+        "eventName": "A BAILAR KPOP",
+        "place": "Yami Arias y grupo idolXP"
+      },
+      {
+        "hours": "14:30hs",
+        "eventName": "MAESTER CLASS",
+        "place": "Chef Jin Wenmo"
+      },
+      {
+        "hours": "15:30hs",
+        "eventName": "TAMBORES TAIKO",
+        "place": "Grupo RKMD"
+      },
+      {
+        "hours": "16:30hs",
+        "eventName": "MODA Y TENDENCIAS",
+        "place": "Universo Clamp"
+      },
+      {
+        "hours": "17:30hs",
+        "eventName": "CEREMONIA DEL TE",
+        "place": "Malena Higashi MNAO"
+      },
+      {
+        "hours": "18:00hs",
+        "eventName": "MAESTER CLASS",
+        "place": "Becarias de AACONI"
+      }
+    ]
+  },
+  {
+    "date": "DIA 4 - SABADO 19",
+    "events": [
+      {
+        "hours": "13:30hs",
+        "eventName": "LA COMIDA EN LAS PELICULAS",
+        "place": "Estudio Ghlibli"
+      },
+      {
+        "hours": "14:30hs",
+        "eventName": "EL ARTE DE VESTRIR KIMONO",
+        "place": "Charla + taller"
+      },
+      {
+        "hours": "15:00hs",
+        "eventName": "DEGUSTACION",
+        "place": "Cafe de Indonesia"
+      },
+      {
+        "hours": "15:30hs",
+        "eventName": "IDIOMA COREANO",
+        "place": "Centro Universitario de idiomas"
+      },
+      {
+        "hours": "17:30hs",
+        "eventName": "MASTER CLASS",
+        "place": "Chef Martin Ho"
+      },
+      {
+        "hours": "18:00hs",
+        "eventName": "DANZA TRADICIONAL",
+        "place": "Delia Hou"
+      }
+    ]
+  },
+  {
+    "date": "DIA 5 - DOMINGO 20",
     "events": [
       {
         "hours": "13:30hs",
