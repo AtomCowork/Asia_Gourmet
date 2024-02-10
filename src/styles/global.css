@@ -22,10 +22,11 @@
   --secondary-color: #004091;
   --third-color: #b8311e;
   --fourth-color: #d68285;
-  /* --higligt: #ffc700; */
+  --higligt: #ffc700;
   /* color-scheme: light dark; */
   font-family: 'Ubuntu';
   scroll-behavior: smooth;
+  scrollbar-color: #ffc700 rgba(255, 255, 255, 0.5);
 }
 
 .p-color {

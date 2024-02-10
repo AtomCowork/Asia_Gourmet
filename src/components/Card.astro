@@ -1,5 +1,6 @@
 ---
 import data from '@/data/cards.json'
+import Button from './Button.astro'
 ---
 
 <section class="flex flex-col gap-10 md:grid md:grid-cols-3">
@@ -17,9 +18,7 @@ import data from '@/data/cards.json'
           ))}
         </ul>
         <br />
-        <button class="mx-auto block rounded-md bg-highlight py-2 font-bold uppercase sm:px-28">
-          COMPRAR
-        </button>
+        <Button name="COMPRAR" display="" />
       </div>
     ))
   }
