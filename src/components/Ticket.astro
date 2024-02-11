@@ -3,55 +3,19 @@ import Card from '@/components/Card.astro'
 ---
 
 <section id="ticket-Container" class="mx-auto justify-center bg-primary">
-  <div class="row-span-1 flex flex-row">
-    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
-    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
-  </div>
+  <div class="container relative mx-auto flex flex-col justify-center py-28 md:py-32">
+    <img src="public/fideos.svg" alt="ramen" class="absolute left-0 top-0 object-left-top" />
+    <img src="public/fideos.svg" alt="ramen" class="absolute right-0 top-0 object-left-top" />
 
-  <h1 class="flex justify-center text-xl text-white">
+  <h1 class="py-4 text-center text-2xl text-white">
     BENEFICIOS CON TUS ANTICIPADAS
   </h1>
-  <p class="flex justify-center text-white">
+  <p class="pb-4 text-center text-white">
     podes sacar para todos los días, uno o armar tu propio combo
   </p>
   <br />
   <Card />
-  <div class="flex flex-row">
-    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
-    <img src="public/fideos.svg" alt="ramen" class="flex h-24" />
+    <img src="public/fideos.svg" alt="ramen" class="absolute bottom-0 left-0 rotate-180 object-left-top" />
+    <img src="public/fideos.svg" alt="ramen" class="absolute bottom-0 right-0 rotate-180 object-left-top" />
   </div>
 </section>
-<div
-  id="entrada"
-  class="container relative mx-auto flex flex-col justify-center py-28 md:py-32">
-  <div>
-    <img
-      src="public/fideos.svg"
-      alt="ramen"
-      class="absolute left-0 top-0 object-left-top"
-    />
-    <img
-      src="public/fideos.svg"
-      alt="ramen"
-      class="absolute right-0 top-0 object-left-top"
-    />
-    <img
-      src="public/fideos.svg"
-      alt="ramen"
-      class="absolute bottom-0 left-0 rotate-180 object-left-top"
-    />
-    <img
-      src="public/fideos.svg"
-      alt="ramen"
-      class="absolute bottom-0 right-0 rotate-180 object-left-top"
-    />
-    <h2 class="py-4 text-center text-2xl text-white">
-      BENEFICIOS CON TUS ANTICIPADAS
-    </h2>
-    <p class="pb-4 text-center text-white">
-      Podes sacar para todos los días, uno o armar tu propio combo
-    </p>
-    <Card />
-  </div>
-</div>
-
