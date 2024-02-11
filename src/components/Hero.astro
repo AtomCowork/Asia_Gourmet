@@ -1,12 +1,11 @@
 ---
 import Button from './Button.astro'
-import imagen from '../../public/heroLogoMobile.svg'
 ---
 
-<header
-  class="relative flex h-screen flex-col items-center gap-2 p-8 md:flex md:flex-row md:justify-between md:px-16">
+<div
+  class="container mx-auto flex h-full flex-col items-center justify-evenly gap-4 md:flex md:flex-row md:justify-between">
   <div class="flex flex-col gap-2 text-center text-backGround lg:text-left">
-    <p class="text-xl lg:text-2xl">16 al 20 Octubre - La Rural</p>
+    <span class="text-xl lg:text-2xl">16 al 20 Octubre - La Rural</span>
     <h1 class="text-2xl font-bold uppercase md:text-4xl lg:text-6xl">
       Sabores que <br /> cuetan historias
     </h1>
@@ -19,12 +18,10 @@ import imagen from '../../public/heroLogoMobile.svg'
       >Comprar Entradas</button
     > -->
   </div>
-  <img class="h-[25rem]" src="/heroLogoMobile.svg" alt="Hero Logo Mobile" />
-
   <img
-    class="absolute left-0 top-0 -z-20 h-full max-h-max w-full object-cover"
     loading="lazy"
-    src="/public/desk.svg"
-    alt="desk"
+    class="h-[25rem] lg:mt-12 lg:h-[45vw] lg:max-h-[45rem]"
+    src="public/heroLogoMobile.svg"
+    alt="Hero Logo Mobile"
   />
-</header>
+</div>

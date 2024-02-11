@@ -2,7 +2,7 @@
 import Button from './Button.astro'
 ---
 
-<nav class="mx-auto bg-primary p-4">
+<nav class="container mx-auto">
   <div class="flex items-center justify-between text-xl uppercase">
     <img class="w-20 md:w-28 lg:w-40" src="public/logo.svg" alt="logo" />
 
@@ -17,7 +17,7 @@ import Button from './Button.astro'
     </button>
 
     <ul
-      class="absolute left-0 right-0 top-16 hidden h-full flex-col items-center gap-6 bg-primary text-white lg:static lg:flex lg:flex-row"
+      class="absolute left-0 right-0 top-16 z-10 hidden h-full flex-col items-center justify-center gap-6 bg-primary text-white lg:static lg:flex lg:flex-row"
       role="menubar">
       <li>
         <a
@@ -30,7 +30,7 @@ import Button from './Button.astro'
         <a
           role="menuitem"
           class="rounded px-4 py-2 decoration-2 underline-offset-4 hover:bg-highlight hover:underline"
-          href="#entradas">entradas</a
+          href="#entrada">entradas</a
         >
       </li>
       <li>

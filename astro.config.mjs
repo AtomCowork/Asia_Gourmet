@@ -15,7 +15,7 @@ export default defineConfig({
   site: 'https://atomcowork.github.io',
   base,
   mode,
-  envDir: '../',
+  envDir: './',
   publicDir: '../public',
   resolve: {
     alias: {
