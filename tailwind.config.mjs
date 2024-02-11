@@ -18,7 +18,8 @@ export default {
       },
       textColor: {
         backGround: '#ffffff',
-        primary: '#004091'
+        primary: '#004091',
+        secondary: '#2E343F'
       }
     }
   },
