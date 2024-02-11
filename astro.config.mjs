@@ -13,6 +13,7 @@ const base = mode === 'production' && isGitHubPages ? '/' + folderName : '/'
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://atomcowork.github.io',
+  // root: 'src',
   base,
   mode,
   envDir: './',
@@ -23,7 +24,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: '../dist',
+    outDir: './dist',
     assetsDir: './'
   }
 })
