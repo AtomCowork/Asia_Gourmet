@@ -21,6 +21,12 @@ import Footer from '@/components/Footer.astro'
     <section class="flex-grow px-4">
       <Hero />
     </section>
+    <!-- <img
+      style="top: 0px; left: 0px; position: absolute; max-height: calc(-16rem + 100vh); overflow: hidden; z-index: 1; height: auto; transition: transform 0.5s ease 0s; transform-origin: center top; transform: scale(1);"
+      loading="lazy"
+      src="public/desk.svg"
+      alt="desk"
+      /> -->
     <img
       class="absolute bottom-0 left-0 -z-20 h-full w-full object-cover"
       loading="lazy"
@@ -28,7 +34,6 @@ import Footer from '@/components/Footer.astro'
       alt="desk"
     />
   </header>
-  <!-- flex flex-col gap-12 overflow-hidden md:gap-24 lg:gap-32 -->
   <main class="">
     <section class="px-4 py-12">
       <Schedule />
@@ -36,7 +41,6 @@ import Footer from '@/components/Footer.astro'
     <section class="bg-dangerRed p-4">
       <Discount />
     </section>
-    <!-- -translate-y-12 bg-primary px-4 md:-translate-y-24 lg:-translate-y-32 -->
     <section class="bg-primary px-4">
       <Ticket />
     </section>
@@ -56,5 +60,7 @@ import Footer from '@/components/Footer.astro'
       <Contact />
     </section>
   </main>
-  <Footer />
+  <footer class="bg-primary px-4 py-12">
+    <Footer />
+  </footer>
 </Layout>

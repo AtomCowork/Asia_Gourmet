@@ -1,5 +1,7 @@
 ---
-import Button from './Button.astro'
+import Button from '@/components/Button.astro'
+import gato from 'public/heroLogoMobile.svg'
+import { Image } from 'astro:assets'
 ---
 
 <div
@@ -12,11 +14,7 @@ import Button from './Button.astro'
     <p class="text-xl lg:text-2xl">
       Viví el festival de comida asiática <br /> más delicioso de la ciudad.
     </p>
-    <Button name="Comprar Entradas" display="w-full" />
-    <!-- <button
-      class="w-full rounded-md bg-highlight py-2 font-bold uppercase sm:w-auto sm:px-28"
-      >Comprar Entradas</button
-    > -->
+    <Button name="Comprar Entradas" display="w-full" buy="#entrada" />
   </div>
   <img
     loading="lazy"
@@ -24,4 +22,10 @@ import Button from './Button.astro'
     src="public/heroLogoMobile.svg"
     alt="Hero Logo Mobile"
   />
+  <!-- <Image
+    loading="lazy"
+    class="h-[25rem] lg:mt-12 lg:h-[45vw] lg:max-h-[45rem]"
+    src={gato}
+    alt="Hero Logo Mobile"
+  /> -->
 </div>

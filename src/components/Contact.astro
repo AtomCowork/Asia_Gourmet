@@ -1,21 +1,23 @@
 ---
-import Button from './Button.astro'
+import Button from '@/components/Button.astro'
 ---
-<div class="font-bold text-primary bg-softblue lg: flex h-full w-full flex-col  p-10 text-2xl  before:gap-10">
+
+<div
+  class="container mx-auto flex flex-col justify-center gap-10 text-primary md:flex-row md:items-center md:gap-32">
   <div>
-    <h2 class="text-center">DEJANOS TU MAIL</h2>
-    <p class="text-sm text-center">
-      Y recibi todas las novedades sobre el festival y los invitados
+    <h2 class="mb-6 text-center text-4xl font-bold">DEJANOS TU MAIL</h2>
+    <p class="text-center md:text-left md:text-xl">
+      Y recibi todas las novedades sobre <br /> el festival y los invitados
     </p>
   </div>
-  <div class=" flex flex-col justify-center align-center rounded-md">
-    <form class="shadow-lg input">
+  <div class="flex-grow">
+    <form class="input flex">
       <input
         type="text"
-        placeholder="          @email"
-        class="flex mx-auto rounded-md bg-skyblue px-7 py-2 sm:px-28"
+        placeholder="@email"
+        class="w-full rounded-s-md bg-skyblue px-4 outline-none"
       />
+      <Button name="Suscribirme" display="rounded-s-none" />
     </form>
-    <Button name="Suscribir" display="w-full" />
   </div>
 </div>
