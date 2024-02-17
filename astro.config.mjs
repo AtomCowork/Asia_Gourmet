@@ -18,11 +18,11 @@ export default defineConfig({
   mode,
   envDir: './',
   publicDir: '../public',
-  resolve: {
-    alias: {
-      '@': new URL('./src', import.meta.url).pathname
-    }
-  },
+  // resolve: {
+  //   alias: {
+  //     '@': new URL('./src', import.meta.url).pathname
+  //   }
+  // },
   build: {
     outDir: './dist',
     assetsDir: './'
