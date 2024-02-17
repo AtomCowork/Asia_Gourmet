@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*
+
 @font-face {
   font-family: 'Ubuntu';
   src: url('public/fonts/Ubuntu-Regular.ttf') format('truetype');
@@ -18,7 +18,7 @@
 }
 
 :root {
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   font-family: 'Ubuntu';
   scroll-behavior: smooth;
   scrollbar-color: #ffc700 rgba(255, 255, 255, 0.5);
@@ -52,4 +52,4 @@ img {
     var(--secondary-color) 0 5deg,
     var(--color) 5deg 10deg
   );
-}*/
+}
