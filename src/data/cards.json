@@ -2,7 +2,7 @@
   {
     "title": "PASE - 5 DÍAS",
     "id": "0001",
-    "img": "public/tickets_5dias.svg",
+    "img": "tickets_5dias.svg",
     "info": [
       "Pase para todos los días",
       "Cuponera de descuento + Regalo en la entrada",
@@ -13,7 +13,7 @@
   {
     "title": "PASE COMBO",
     "id": "0002",
-    "img": "public/tickets_combo.svg",
+    "img": "tickets_combo.svg",
     "info": [
       "Pase para el día seleccionado",
       "Reserva de cupos en talleres de ese mismo día",
@@ -24,7 +24,7 @@
   {
     "title": "PASE - 1 DÍAS",
     "id": "0003",
-    "img": "public/tickets_1dia.svg",
+    "img": "tickets_1dia.svg",
     "info": [
       "Pase para los dias seleccionados",
       "Reserva de cupos en talleres",
