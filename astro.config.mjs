@@ -27,22 +27,4 @@ export default defineConfig({
     outDir: './dist',
     assetsDir: './'
   }
-
-  // base,
-  // publicDir: '../public'
-  // mode,
-  // envDir: './',
-  // resolve: {
-  //   alias: {
-  //     '@': new URL('./src', import.meta.url).pathname
-  //   }
-  // },
-  // build: {
-  //   outDir: './dist',
-  //   assetsDir: './'
-  // }
-  // optimizeDeps: {
-  //   noDiscovery: true,
-  //   include: undefined
-  // }
 })
