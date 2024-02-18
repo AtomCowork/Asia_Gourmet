@@ -13,11 +13,11 @@ const base = mode === 'production' && isGitHubPages ? '/' + folderName : '/'
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://atomcowork.github.io',
-  // root: '/',
-  // base,
-  // mode,
-  // envDir: './',
-  // publicDir: './',
+  root: './',
+  base,
+  mode,
+  envDir: './',
+  publicDir: './public',
   resolve: {
     alias: {
       '@': new URL('./src', import.meta.url).pathname
